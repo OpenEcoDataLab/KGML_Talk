@@ -1,0 +1,219 @@
+---
+title: "Matched-up, the importance of open-access training data for global-scale remote sensing of water quality"
+author: "Matthew Ross"
+date: "8/18/20**"
+output: 
+  revealjs::revealjs_presentation:
+    self_contained: false
+    center: true
+    incremental: true
+    theme: night
+    transition: slide
+    css: style.css
+    reveal_plugins: ["chalkboard"]
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
+      margin: 0.00
+
+---
+
+
+# ML/AI needs data
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EWKAgwgqXB4?start=181" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Anokhin et al., 2020p - 20,000 photos from the internet
+
+## For many fields we have it
+
+<embed src="https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research" style="width:1100px; height: 700px;">
+
+
+## Historically, not for water quality remote sensing
+
+![](https://www.mdpi.com/water/water-12-00169/article_deploy/html/images/water-12-00169-g004.png)
+
+Topp et al., 2020
+
+## 
+
+![](https://www.mdpi.com/water/water-12-00169/article_deploy/html/images/water-12-00169-g007.png)
+
+# Remote sensing of water quality?
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1470160X15007141-gr3.jpg)
+
+
+## 
+
+```{r, echo=F}
+knitr::include_graphics('images/florida_color.png')
+```
+
+
+
+
+##
+
+![](http://www.un-spider.org/sites/default/files/image14.png)
+
+
+##
+
+![](images/mega_map.png)
+
+
+## 
+
+![](images/plaid_detauils.png)
+
+## From image to estimate
+
+![](https://www.mdpi.com/remotesensing/remotesensing-12-01855/article_deploy/html/images/remotesensing-12-01855-g009.png)
+
+# Local to global
+
+## AquaSat
+
+ - USGS, Alison Applng
+ - UNC-Chapel Hill, Tamlin Pavelsky, Simon Topp, Xiao Yang
+ - UWash, David Butman, Catherine Kuhn
+ 
+
+## 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6LZURaRH3Ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Global Sediment
+
+![](images/gs.PNG)
+
+
+# What AquaSat can do
+
+# Lake Clarity
+
+ - Simon Topp
+ - Tamlin Pavelsky
+ - Xiao Yang
+ - Claire Griffin
+ - Emily Stanley
+
+## 
+
+![](images/secchi_1.PNG)
+
+
+##
+
+![](images/secchi_2.PNG)
+
+
+##
+
+![](images/sample_design.PNG)
+
+##
+
+![](images/rs_trends_secchi.PNG)
+
+
+# Riverine Sediment
+
+  - John Gardner
+  - Xiao Yang
+  - Tamlin Pavelsky
+  - Simon Topp
+  
+  
+##
+
+![](images/TSS_Validation.png)
+
+
+##
+
+![](images/plaid_detauils.png)
+
+
+## 
+
+<embed src="images/tss.zoom.html" style="width:1100px; height: 700px;">
+
+
+## 
+
+![](images/q90profiles.png)
+
+
+##
+
+![](images/q50profiles.png)
+
+
+# Riverine DOC
+
+  - Matt Cohen
+  - Jim Jawitz
+  
+##
+
+![](images/DOC_cal.png)
+
+
+## 
+
+<embed src="images/doc_map_st.html" style="width:1100px; height: 700px;">
+
+# Riverine algae dynamics
+
+  - Jake Diamond
+  - Gilles Pinay
+  - Florentina Moatar
+  - Matt Cohen
+  - John Gardner
+
+
+
+## Loire river
+
+![](images/loire_chl.png)
+
+
+##
+
+![](images/loire_trends.png)
+
+##
+
+![](images/loire4.gif)
+
+
+
+
+# Future work
+
+## Using KGML/PGDL in our work
+ 
+## Transfer learning 
+ 
+![](images/yojoa_meta_model.png) 
+ 
+## Integrated lake/river/coastal approaches
+ 
+ 
+# Why not more open datasets? 
+
+  - Historically a lot harder
+  
+  - Harmonization is the worst
+  
+  - Other typical barriers to data publishing
+  
+  - But that's all changing...
+  
+# Questions?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6LZURaRH3Ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
